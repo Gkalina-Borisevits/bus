@@ -1,0 +1,33 @@
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 120px;
+}
+
+.headerContainer a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.headerContainer a:hover,
+.headerContainer a.active {
+  color: #ffcc00;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .headerContainer {
+    height: 40px;
+  }
+}

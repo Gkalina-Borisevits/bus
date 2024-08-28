@@ -1,0 +1,20 @@
+[
+    {
+      "routeNumber": "101",
+      "departureTime": "08:00",
+      "stations": [
+        { "name": "Hauptbahnhof", "departureTime": "08:15" },
+        { "name": "Münsterplatz", "departureTime": "08:25" },
+        { "name": "Stadtpark", "departureTime": "08:40" }
+      ]
+    },
+    {
+      "routeNumber": "202",
+      "departureTime": "09:00",
+      "stations": [
+        { "name": "Flughafen", "departureTime": "09:15" },
+        { "name": "Universität", "departureTime": "09:40" },
+        { "name": "Altstadt", "departureTime": "09:55" }
+      ]
+    }
+  ]
